@@ -84,9 +84,9 @@ Currently, the tests work with either Jena Fuseki or Sesame triplestores/SPARQL 
 Fuseki is the easiest to setup -- just download it from http://www.apache.org/dist/jena/binaries/, unpack and start ```fuseki-server```:
 
 ``` sh
-curl -O http://www.apache.org/dist/jena/binaries/jena-fuseki-0.2.7-distribution.tar.gz
-tar xvfz jena-fuseki-0.2.7-distribution.tar.gz
-cd jena-fuseki-0.2.7
+curl -O http://www.apache.org/dist/jena/binaries/jena-fuseki-1.0.0-distribution.tar.gz
+tar -xvzf jena-fuseki-1.0.0-distribution.tar.gz
+cd jena-fuseki-1.0.0
 ./fuseki-server --update --mem /test
 ```
 
